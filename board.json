@@ -3,6 +3,7 @@
     "id": "ruff-mbd-v1",
     "model": "ruff-mbd-v1",
     "preloads": {
+        "uart-0": "uart-0/uart",
         "gpio-0": "gpio-0/gpio",
         "gpio-12": "gpio-12/gpio",
         "gpio-13": "gpio-13/gpio",
@@ -45,10 +46,11 @@
         "pwm-4": "ruff-pwm/pwm-4",
         "pwm-5": "ruff-pwm/pwm-5",
         "pwm-6": "ruff-pwm/pwm-6",
-        "pwm-7": "ruff-pwm/pwm-7",
-        "uart-0": "uart-0/uart"
+        "pwm-7": "ruff-pwm/pwm-7"
     },
     "outputs": {
+        "i2c-0": "i2c-0/i2c",
+        "uart-0": "uart-0/uart",
         "gnd-0": "ground/gnd-0",
         "gnd-1": "ground/gnd-1",
         "gnd-2": "ground/gnd-2",
@@ -89,7 +91,6 @@
         "gpio-23": "gpio-23/gpio",
         "gpio-24": "gpio-24/gpio",
         "gpio-26": "gpio-26/gpio",
-        "i2c-0": "i2c-0/i2c",
         "io-0": "gpio-plus/io-0",
         "io-1": "gpio-plus/io-1",
         "io-2": "gpio-plus/io-2",
@@ -121,8 +122,7 @@
         "pwm-4": "ruff-pwm/pwm-4",
         "pwm-5": "ruff-pwm/pwm-5",
         "pwm-6": "ruff-pwm/pwm-6",
-        "pwm-7": "ruff-pwm/pwm-7",
-        "uart-0": "uart-0/uart"
+        "pwm-7": "ruff-pwm/pwm-7"
     },
     "devices": [
         {
