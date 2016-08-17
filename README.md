@@ -4,7 +4,7 @@ The board project is for [Ruff Main Board V1](https://rap.ruff.io/devices/ruff-m
 
 You can get Ruff Main Board V1 [here](http://detail.koudaitong.com/show/goods?alias=35wmug7n0nrzf).
 
-## Project Intialization
+## Usage
 
 You can specify this board with `-b` while creating a project.
 
