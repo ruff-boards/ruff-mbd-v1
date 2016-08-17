@@ -677,7 +677,8 @@
                     "bind": "gpio-22/gpio",
                     "args": {
                         "direction": "out",
-                        "level": "low"
+                        "level": "low",
+                        "activeLow": false
                     }
                 }
             }
@@ -692,7 +693,8 @@
                     "bind": "gpio-23/gpio",
                     "args": {
                         "direction": "out",
-                        "level": "low"
+                        "level": "low",
+                        "activeLow": false
                     }
                 }
             }
@@ -707,7 +709,8 @@
                     "bind": "gpio-24/gpio",
                     "args": {
                         "direction": "out",
-                        "level": "low"
+                        "level": "low",
+                        "activeLow": false
                     }
                 }
             }

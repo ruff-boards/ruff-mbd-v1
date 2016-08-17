@@ -1,15 +1,18 @@
 {
 	"name": "ruff-mbd-v1",
-	"version": "3.0.0",
+	"version": "4.0.0",
 	"description": "Ruff Main Board V1 Metadata",
 	"author": "Nanchao Inc.",
 	"ruff": {
 		"dependencies": {
-			"led-gpio": "^2.0.0",
+			"led-gpio": "^3.0.0",
 			"button-gpio": "^2.0.0",
 			"pca9685": "^2.0.0",
 			"ltc2309": "^2.0.0",
 			"mcp23017": "^2.0.0"
 		}
+	},
+	"engines": {
+		"ruff": ">=1.4.0 <1.5.0"
 	}
 }
