@@ -742,6 +742,12 @@
                     }
                 }
             }
+        },
+        {
+            "id": "usb",
+            "model": "ruff-usb",
+            "driver": "ruff-v1-sys-usb",
+            "inputs": {}
         }
     ]
 }
