@@ -1,17 +1,19 @@
 {
   "name": "ruff-mbd-v1",
-  "version": "4.2.4",
+  "version": "4.2.5",
   "description": "Ruff Main Board V1 Metadata",
   "author": "Nanchao Inc.",
   "ruff": {
     "session-format": {
       "address": {
         "type": "string",
-        "description": "designate IP address"
+        "description": "designate IP address",
+        "required": true
       },
       "token": {
         "type": "string",
-        "description": "designate token"
+        "description": "designate token",
+        "required": false
       }
     },
     "dependencies": {
