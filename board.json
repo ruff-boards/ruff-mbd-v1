@@ -532,10 +532,6 @@
                 "gpio": {
                     "type": "gpio",
                     "features": {
-                        "input": [
-                            "read",
-                            "interrupt"
-                        ],
                         "output": [
                             "write"
                         ]
@@ -559,10 +555,6 @@
                 "gpio": {
                     "type": "gpio",
                     "features": {
-                        "input": [
-                            "read",
-                            "interrupt"
-                        ],
                         "output": [
                             "write"
                         ]
@@ -586,10 +578,6 @@
                 "gpio": {
                     "type": "gpio",
                     "features": {
-                        "input": [
-                            "read",
-                            "interrupt"
-                        ],
                         "output": [
                             "write"
                         ]
