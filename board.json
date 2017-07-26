@@ -453,9 +453,6 @@
                         "input": [
                             "read",
                             "interrupt"
-                        ],
-                        "output": [
-                            "write"
                         ]
                     }
                 }
@@ -508,9 +505,6 @@
                         "input": [
                             "read",
                             "interrupt"
-                        ],
-                        "output": [
-                            "write"
                         ]
                     }
                 }
